@@ -51,7 +51,7 @@ export function App() {
               <Post
                 key={post.id}
                 author={post.author}
-                content={post.contents}
+                contents={post.contents}
                 publishedAt={post.publishedAt}
               />
             )
